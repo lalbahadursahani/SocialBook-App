@@ -31,15 +31,24 @@ body{
     
 }
 nav{
-    
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
     background:var(--nav-color);
     padding: 5px 5%;
-    position: sticky;
+    position:fixed;
     top: 0;
     z-index: 150;
+    left: 0;
+    right: 0;
+    width: 100%;
+   
+    
+    
+
+   
+
 }
 .logo{
  width: 160px; 
@@ -114,6 +123,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding:13px 5% ;
+    margin-top: 60px;
 
 }
 .left-sidebar{  
